@@ -13,7 +13,6 @@ public class CustomBeanPostProcessor implements BeanPostProcessor {
         if(bean instanceof LifeCycleDemoBean){
             ((LifeCycleDemoBean) bean).beforeInit();
         }
-
         return bean;
     }
 

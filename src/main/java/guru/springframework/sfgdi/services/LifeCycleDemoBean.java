@@ -20,7 +20,7 @@ public class LifeCycleDemoBean implements InitializingBean, DisposableBean, Bean
 
     @Override
     public void destroy() throws Exception {
-        System.out.println("## The Lifecycle bean has been terminated");
+        System.out.println("### The Lifecycle bean has been terminated");
 
     }
 
